@@ -1,112 +1,89 @@
+
+
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Project Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
-
 <body>
-  
-  <br>
-  
-  <div class="menu">
-    <div class="p1Info">
-
-      <div id="p1Name">Player 1</div>
-      
-      <img 
-      id="p1" 
-      src="https://i.gifer.com/origin/00/0019f6845ceaa9347b881ccbe8f5644a_w200.gif"
-      />
-      
-      <div class="playerControls">
-
-        <div class="AttackDiv">
-          <h3>Q:</h3>
-          <button 
-            onclick = "player1.strike(player1, player2, player1.attackDmg)"  
-            id="attack"
-          >
-            Attack
-          </button>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">Header Logo</div>
+            <ul class="links">
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
         </div>
+    </header>
 
-        <div class="HealDiv">
-          <h3>A:</h3>
-          <button 
-            onclick = "player1.heal(player1)" 
-            id="heal"
-          >
-            Heal
-          </button>
-          </div>
-      </div>
-      
-      <div  id="p1Health">100</div>
+    <div class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">This website is awesome</h1>
+                <p class="hero-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button class="hero-button">Sign up</button>
+            </div>
+            <div class="hero-image">
+               <p>this is a placeholder for an image</p>
+            </div>
+        </div>
     </div>
 
-      <button id="play">Simulate</button>
-
-    <div class="p2Info">
-
-      <div id="p2Name">Player 2</div>
-      
-      <img 
-        id="p2" 
-        src="https://i.imgur.com/Z0QCi47.gif"
-      />
-      <div class="playerControls">
-        <div class="AttackDiv">
-          <h3>P:</h3>
-          <button 
-            onclick = "player2.strike(player2, player1, player2.attackDmg)"  
-            id="attack"
-          >
-            Attack
-          </button>
+    <div class="info">
+        <div class="info-container">
+            <h2 class="info-title">Some random information.</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-box"></div>
+                    <p class="card-text">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="card">
+                    <div class="card-box"></div>
+                    <p class="card-text">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="card">
+                    <div class="card-box"></div>
+                    <p class="card-text">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="card">
+                    <div class="card-box"></div>
+                    <p class="card-text">this is some subtext under an illustration or image</p>
+                </div>
+            </div>
         </div>
-        <div class="HealDiv">
-          <h3>L:</h3>          
-          <button 
-            onclick = "player2.heal(player2)" 
-            id="heal"
-          >
-            Heal
-          </button>
-        </div>
-      </div>
-      
-      <div id="p2Health">100</div>
     </div>
 
-  </div>
-  <br>
-  
-  <div class="resultContainer">
-      <div id="result"></div>
-      <button id="reset" onclick="game.reset(p1,p2)">Reset</button>
-  </div>
+    <div class="quote">
+        <div class="quote-container">
+            <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p class="quote-author">-Thor, God of Thunder</p>
+        </div>
+    </div>
 
-<audio id="p1attack" controls style="display:none">
-  <source src="sounds/fastpunch.mp3" type="audio/mpeg"> 
-</audio>
-<audio id="p1heal" controls style="display:none">
-  <source src="sounds/fastheal.mp3" type="audio/mpeg"> 
-</audio>
-<audio id="p2attack" controls style="display:none">
-  <source src="sounds/quickhit.mp3" type="audio/mpeg"> 
-</audio>
-<audio id="p2heal" controls style="display:none">
-  <source src="sounds/quickheal.mp3" type="audio/mpeg"> 
-</audio>
-<audio id="victory" controls style="display:none">
-  <source src="sounds/victory.mp3" type="audio/mpeg"> 
-</audio>
+    <div class="call">
+        <div class="call-container">
+            <div class="call-box">
+                <div>
+                    <h3 class="call-title">Call to action! It's time!</h3>
+                    <p class="call-text">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button class="call-button">Sign up</button>
+            </div>
+        </div>
+    </div>
 
-  <script src="script.js"></script>
+    <div class="footer">
+        <div class="footer-container">
+            <p>Copyright © The Odin Project 2021</p>
+        </div>
+    </div>
 </body>
-
 </html>

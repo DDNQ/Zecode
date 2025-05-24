@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+.header {
+    background-color: #1F2937;
+    padding: 16px 0;
+}
+
+
+
+.header-container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #1F2937;
+    padding: 100px 0;
+}
+
+.hero-container {
+    
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    line-height: 1.1;
+    margin-bottom: 8px;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 16px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-image {
+    flex: 1;
+    background-color: #6d747d;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+/* Info Section */
+.info {
+    padding: 48px 0 100px;
+}
+
+.info-container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.card {
+    width: 160px;
+    text-align: center;
+}
+
+.card-box {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
+
+.card-text {
+    color: #4a4f57;
+    font-size: 18px;
+}
+
+/* Quote Section */
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
+
+.quote-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 16px;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* CTA Section */
+.call {
+    padding: 100px 0;
+}
+
+.call-container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.call-box {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 48px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.call-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.call-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: auto;
+}
