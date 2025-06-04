@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
 }
 
-/* Header Styles */
+
 .header {
     background-color: #1F2937;
     padding: 16px 0;
@@ -46,7 +46,6 @@ body {
     color: #E5E7EB;
 }
 
-/* Hero Section */
 .hero {
     background-color: #1F2937;
     padding: 100px 0;
@@ -101,7 +100,7 @@ body {
     color: #E5E7EB;
 }
 
-/* Info Section */
+
 .info {
     padding: 48px 0 100px;
 }
@@ -170,7 +169,7 @@ body {
     text-align: right;
 }
 
-/* CTA Section */
+
 .call {
     padding: 100px 0;
 }
@@ -213,7 +212,7 @@ body {
     cursor: pointer;
 }
 
-/* Footer */
+
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
